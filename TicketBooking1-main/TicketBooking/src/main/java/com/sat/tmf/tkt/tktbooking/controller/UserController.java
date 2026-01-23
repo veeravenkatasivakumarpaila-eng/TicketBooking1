@@ -1,4 +1,3 @@
-
 package com.sat.tmf.tkt.tktbooking.controller;
 
 
@@ -69,4 +68,5 @@ public class UserController {
         return "search_user";
     }
 }
+
 
