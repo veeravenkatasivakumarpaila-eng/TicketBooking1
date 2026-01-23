@@ -58,15 +58,6 @@ public class UserController {
 		return userService.getUserByFirstName(firstName);
 	}
 	
-	@GetMapping("/search")
-    public String searchUsers(@RequestParam("name") String name, Model model) {
-
-        List<User> users = userService.searchUsers(name);
-        model.addAttribute("users", users);
-        model.addAttribute("searchName", name);
-
-        return "search_user";
-    }
-}
+	
 
 
