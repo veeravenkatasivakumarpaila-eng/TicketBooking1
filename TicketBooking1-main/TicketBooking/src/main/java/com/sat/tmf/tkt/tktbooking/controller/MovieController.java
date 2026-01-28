@@ -1,3 +1,4 @@
+
 package com.sat.tmf.tkt.tktbooking.controller;
 
 import org.springframework.stereotype.Controller;
@@ -23,6 +24,7 @@ public class MovieController {
 		return null;
 	}
 }
+
 
 
 
